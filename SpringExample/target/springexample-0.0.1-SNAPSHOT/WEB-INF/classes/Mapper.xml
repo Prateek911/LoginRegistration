@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC '-//mybatis.org//DTD Mapper 3.0//EN'
+  'http://mybatis.org/dtd/mybatis-3-mapper.dtd'>
+
+<mapper namespace="com.prateek.DAO.UserMapper">
+	<insert id="insertUser" parameterType="RegisterBean">
+		insert into
+		springmvcuser(name,adhaar_Id,age,email,username,password)values(#{name},#{adhaar_Id},
+		#{age},#{email},#{username},#{password})
+	</insert>
+
+	<select id="getUser" parameterType="LoginBean" resultType="RegisterBean">
+		select name,adhaar_Id,age,email,username,password from springmvcuser
+		where
+		username=#{username} and password=#{password}
+
+	</select>
+
+	<select id="checkUser" parameterType="string" resultType="String">
+		select
+		name from springmvcuser where
+		username=#{uname}
+	</select>
+	<select id="getEmail" parameterType="string" resultType="String">
+		select
+		email from springmvcuser where
+		email=#{email}
+	</select>
+	<select id="updatePass" parameterType="string">
+		update springmvcuser set password = #{1} where email = #{0}
+	</select>
+
+</mapper> 

@@ -1,0 +1,15 @@
+/home/bridgeit/Documents/MVC/SpringExample/src/main/java/com/prateek/Model/Login.java
+/home/bridgeit/Documents/MVC/SpringExample/src/main/java/com/prateek/Services/FormValidater.java
+/home/bridgeit/Documents/MVC/SpringExample/src/main/java/com/prateek/DAO/UserMapper.java
+/home/bridgeit/Documents/MVC/SpringExample/src/main/java/com/prateek/Controller/GoogleLoginController.java
+/home/bridgeit/Documents/MVC/SpringExample/src/main/java/com/prateek/SocialLogin/GsonUtils.java
+/home/bridgeit/Documents/MVC/SpringExample/src/main/java/com/prateek/Model/Register.java
+/home/bridgeit/Documents/MVC/SpringExample/src/main/java/com/prateek/DAO/UserMapperImpl.java
+/home/bridgeit/Documents/MVC/SpringExample/src/main/java/com/prateek/SocialLogin/CallBack.java
+/home/bridgeit/Documents/MVC/SpringExample/src/main/java/com/prateek/MyBatisUtility/MyBatisUtil.java
+/home/bridgeit/Documents/MVC/SpringExample/src/main/java/com/prateek/Services/UserService.java
+/home/bridgeit/Documents/MVC/SpringExample/src/main/java/com/prateek/Controller/LoginController.java
+/home/bridgeit/Documents/MVC/SpringExample/src/main/java/com/prateek/Controller/ResetPasswordController.java
+/home/bridgeit/Documents/MVC/SpringExample/src/main/java/com/prateek/logger/Loggerr.java
+/home/bridgeit/Documents/MVC/SpringExample/src/main/java/com/prateek/Services/GenOtpService.java
+/home/bridgeit/Documents/MVC/SpringExample/src/main/java/com/prateek/Controller/RegistrationController.java
